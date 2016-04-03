@@ -12,13 +12,15 @@ console.log('`About` component loaded asynchronously');
   selector: 'about',
   styles: [`
     h1 {
-      font-family: Arial, Helvetica, sans-serif
+      font-family: Verdana;
+      font-variant: small-caps;
     }
   `],
   template: `
     <h1>
-      patrick@AngularClass.com
+      We used to care about patrick, but now we are English.
     </h1>
+    <pre> You know what that means!</pre>
   `
 })
 export class About {
@@ -27,7 +29,7 @@ export class About {
   }
 
   ngOnInit() {
-    console.log('hello `About` component');
+    console.log('hello `About` component - edited by Pól');
     // static data that is bundled
     // var mockData = require('assets/mock-data/mock-data.json');
     // console.log('mockData', mockData);
