@@ -21,6 +21,7 @@ console.log('`About` component loaded asynchronously');
       We used to care about patrick, but now we are English.
     </h1>
     <pre> You know what that means!</pre>
+    <h3> Now we're editing with Visual Studio! </h3>
   `
 })
 export class About {
