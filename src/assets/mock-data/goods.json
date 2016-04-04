@@ -1,0 +1,941 @@
+{
+	"application" : {
+		"name": "SistemaE3",
+		"version" : 1},
+	"name": "Goods of the Sun",
+	"exalt_type": "Solar",
+	"caste": "Dawn",
+	"concept": "Athlete Solar, saved by the Broken Order, back to help free Civilization",
+	"motivation": "FREEDOM!",
+	"anima_banner": "A rising tsunami of light",
+	"attribute": {
+			"max": 5,
+			"min": 1,
+			"strength": {
+					"name": "strength",
+					"abr": "str",
+					"value": 3,
+					"section": "physical"
+			},
+			"dexterity": {
+					"name": "dexterity",
+					"abr": "dex",
+					"value": 5,
+					"section": "physical"
+			},
+			"stamina": {
+					"name": "stamina",
+					"abr": "sta",
+					"value": 3,
+					"section": "physical"
+			},
+			"charisma": {
+					"name": "charisma",
+					"abr": "cha",
+					"min": 1,
+					"max": 5,
+					"value": 4,
+					"section": "social"
+			},
+			"manipulation": {
+					"name": "manipulation",
+					"abr": "man",
+					"min": 1,
+					"max": 5,
+					"value": 3,
+					"section": "social"
+			},
+			"appearance": {
+					"name": "appearance",
+					"abr": "app",
+					"min": 1,
+					"max": 5,
+					"value": 2,
+					"section": "social"
+			},
+			"perception": {
+					"name": "perception",
+					"abr": "app",
+					"min": 1,
+					"max": 5,
+					"value": 2,
+					"section": "mental"
+			},
+			"intelligence": {
+					"name": "intelligence",
+					"abr": "int",
+					"min": 1,
+					"max": 5,
+					"value": 2,
+					"section": "mental"
+			},
+			"wits": {
+					"name": "wits",
+					"abr": "wit",
+					"min": 1,
+					"max": 5,
+					"value": 3,
+					"section": "mental"
+			}
+	},
+	"attributes": [
+		{
+					"name": "strength",
+					"abr": "str",
+					"min": 1,
+					"max": 5,
+					"value": 3,
+					"section": "physical"
+			},
+			 {
+					"name": "dexterity",
+					"abr": "dex",
+					"min": 1,
+					"max": 5,
+					"value": 5,
+					"section": "physical"
+			},
+			 {
+					"name": "stamina",
+					"abr": "sta",
+					"min": 1,
+					"max": 5,
+					"value": 3,
+					"section": "physical"
+			},
+			{
+					"name": "charisma",
+					"abr": "cha",
+					"min": 1,
+					"max": 5,
+					"value": 4,
+					"section": "social"
+			},
+			 {
+					"name": "manipulation",
+					"abr": "man",
+					"min": 1,
+					"max": 5,
+					"value": 3,
+					"section": "social"
+			},
+			 {
+					"name": "appearance",
+					"abr": "app",
+					"min": 1,
+					"max": 5,
+					"value": 2,
+					"section": "social"
+			},
+			 {
+					"name": "perception",
+					"abr": "app",
+					"min": 1,
+					"max": 5,
+					"value": 2,
+					"section": "mental"
+			},
+			 {
+					"name": "intelligence",
+					"abr": "int",
+					"min": 1,
+					"max": 5,
+					"value": 2,
+					"section": "mental"
+			},
+			{
+					"name": "wits",
+					"abr": "wit",
+					"min": 1,
+					"max": 5,
+					"value": 3,
+					"section": "mental"
+			}
+	],
+	"ability": {
+			"Athletics": {
+					"name": "athletics",
+					"abr": "Athl",
+					"min": 0,
+					"max": 5,
+					"value": 5,
+					"favored": true,
+					"specialties": [{
+							"name": "Acrobat",
+							"value": 1
+					}]
+			},
+			"martial_arts": {
+					"name": "martial arts",
+					"abr": "ma",
+					"min": 0,
+					"max": 5,
+					"value": 0,
+					"favored": true
+			},
+			"brawl": {
+					"name": "Brawl",
+					"abr": "bra",
+					"min": 0,
+					"max": 5,
+					"value": 4,
+					"caste": "dawn",
+					"favored": true,
+					"specialties": [{
+							"name": "Clinch",
+							"value": 1
+					}]
+			},
+			"melee": {
+					"name": "melee",
+					"abr": "mel",
+					"min": 0,
+					"max": 5,
+					"value": 4,
+					"favored": true,
+					"specialties": [{
+							"name": "Staff",
+							"value": 1
+					}]
+			},
+			"thrown": {
+					"name": "thrown",
+					"abr": "thr",
+					"min": 0,
+					"max": 5,
+					"value": 5,
+					"favored": true
+			},
+			"war": {
+					"name": "war",
+					"abr": "war",
+					"min": 0,
+					"max": 5,
+					"value": 2,
+					"favored": true
+			},
+			"awareness": {
+					"name": "awareness",
+					"abr": "awa",
+					"min": 0,
+					"max": 5,
+					"value": 2,
+					"favored": true
+			},
+			"dodge": {
+					"name": "dodge",
+					"abr": "dod",
+					"min": 0,
+					"max": 5,
+					"value": 2,
+					"favored": true
+			},
+			"larceny": {
+					"name": "larceny",
+					"abr": "lar",
+					"min": 0,
+					"max": 5,
+					"value": 1,
+					"caste": "night",
+					"favored": true
+			},
+			"stealth": {
+					"name": "stealth",
+					"abr": "stlh",
+					"min": 0,
+					"max": 5,
+					"value": 3,
+					"caste": "night",
+					"favored": true
+			},
+			"integrity": {
+					"name": "integrity",
+					"abr": "intg",
+					"min": 0,
+					"max": 5,
+					"value": 1,
+					"caste": "zenith",
+					"favored": true
+			},
+			"performance": {
+					"name": "performance",
+					"abr": "perf",
+					"min": 0,
+					"max": 5,
+					"value": 0,
+					"caste": "zenith",
+					"favored": false
+			},
+			"presence": {
+					"name": "presence",
+					"abr": "pres",
+					"min": 0,
+					"max": 5,
+					"value": 1,
+					"caste": "zenith",
+					"favored": false
+			},
+			"resistance": {
+					"name": "resistance",
+					"abr": "rsst",
+					"min": 0,
+					"max": 5,
+					"value": 2,
+					"caste": "zenith",
+					"favored": false
+			},
+			"survival": {
+					"name": "survival",
+					"abr": "surv",
+					"min": 0,
+					"max": 5,
+					"value": 1,
+					"caste": "zenith",
+					"favored": false
+			},
+			"bureaucracy": {
+					"name": "bureaucracy",
+					"abr": "bure",
+					"min": 0,
+					"max": 5,
+					"value": 0,
+					"caste": "eclipse",
+					"favored": false
+			},
+			"linguistics": {
+					"name": "linguistics",
+					"abr": "ling",
+					"min": 0,
+					"max": 5,
+					"value": 1,
+					"caste": "eclipse",
+					"favored": false
+			},
+			"ride": {
+					"name": "ride",
+					"abr": "ride",
+					"min": 0,
+					"max": 5,
+					"value": 0,
+					"caste": "eclipse",
+					"favored": false
+			},
+			"sail": {
+					"name": "sail",
+					"abr": "sail",
+					"min": 0,
+					"max": 5,
+					"value": 0,
+					"caste": "eclipse",
+					"favored": false
+			},
+			"socialize": {
+					"name": "socialize",
+					"abr": "socl",
+					"min": 0,
+					"max": 5,
+					"value": 1,
+					"caste": "eclipse",
+					"favored": false
+			},
+			"craft": {
+					"name": "craft",
+					"abr": "craf",
+					"min": 0,
+					"max": 5,
+					"value": 0,
+					"caste": "twilight",
+					"favored": false
+			},
+			"investigation": {
+					"name": "investigation",
+					"abr": "inv",
+					"min": 0,
+					"max": 5,
+					"value": 3,
+					"caste": "twilight",
+					"favored": true
+			},
+			"lore": {
+					"name": "lore",
+					"abr": "lore",
+					"min": 0,
+					"max": 5,
+					"value": 2,
+					"caste": "twilight",
+					"favored": true
+			},
+			"medicine": {
+					"name": "medicine",
+					"abr": "medi",
+					"min": 0,
+					"max": 5,
+					"value": 0,
+					"caste": "twilight",
+					"favored": false
+			},
+			"occult": {
+					"name": "occult",
+					"abr": "occ",
+					"min": 0,
+					"max": 5,
+					"value": 0,
+					"caste": "twilight",
+					"favored": false
+			}
+	},
+	"abilities": [
+			{
+					"name": "archery",
+					"abr": "arch",
+					"min": 0,
+					"max": 5,
+					"value": 5,
+					"favored": false,
+                    "specialties": [{
+							"name": "Long Shot",
+							"value": 2
+					}]
+			},
+		 {
+					"name": "martial arts",
+					"abr": "ma",
+					"min": 0,
+					"max": 5,
+					"value": 0,
+					"caste": "dawn",
+					"favored": false
+			},
+			{
+					"name": "melee",
+					"abr": "mel",
+					"min": 0,
+					"max": 5,
+					"value": 0,
+					"caste": "dawn",
+					"favored": false
+			},
+			 {
+					"name": "thrown",
+					"abr": "thr",
+					"min": 0,
+					"max": 5,
+					"value": 0,
+					"caste": "dawn",
+					"favored": false
+			},
+			{
+					"name": "war",
+					"abr": "war",
+					"min": 0,
+					"max": 5,
+					"value": 0,
+					"caste": "dawn",
+					"favored": false
+			},
+			{
+					"name": "athletics",
+					"abr": "ath",
+					"min": 0,
+					"max": 5,
+					"value": 3,
+					"caste": "night",
+					"favored": true
+			},
+			{
+					"name": "awareness",
+					"abr": "awa",
+					"min": 0,
+					"max": 5,
+					"value": 3,
+					"caste": "night",
+					"favored": true
+			},
+			{
+					"name": "dodge",
+					"abr": "dod",
+					"min": 0,
+					"max": 5,
+					"value": 5,
+					"caste": "night",
+					"favored": true,
+					 "specialties": [{
+							"name": "Hauling Ass",
+							"value": 1
+					}]
+			},
+			{
+					"name": "larceny",
+					"abr": "lar",
+					"min": 0,
+					"max": 5,
+					"value": 1,
+					"caste": "night",
+					"favored": true
+			},
+			{
+					"name": "stealth",
+					"abr": "stlh",
+					"min": 0,
+					"max": 5,
+					"value": 3,
+					"caste": "night",
+					"favored": true
+			},
+		 {
+					"name": "integrity",
+					"abr": "intg",
+					"min": 0,
+					"max": 5,
+					"value": 1,
+					"caste": "zenith",
+					"favored": true
+			},
+			{
+					"name": "performance",
+					"abr": "perf",
+					"min": 0,
+					"max": 5,
+					"value": 0,
+					"caste": "zenith",
+					"favored": false
+			},
+			{
+					"name": "presence",
+					"abr": "pres",
+					"min": 0,
+					"max": 5,
+					"value": 1,
+					"caste": "zenith",
+					"favored": false
+			},
+			{
+					"name": "resistance",
+					"abr": "rsst",
+					"min": 0,
+					"max": 5,
+					"value": 2,
+					"caste": "zenith",
+					"favored": false
+			},
+		 {
+					"name": "survival",
+					"abr": "surv",
+					"min": 0,
+					"max": 5,
+					"value": 1,
+					"caste": "zenith",
+					"favored": false
+			},
+			{
+					"name": "bureaucracy",
+					"abr": "bure",
+					"min": 0,
+					"max": 5,
+					"value": 0,
+					"caste": "eclipse",
+					"favored": false
+			},
+			{
+					"name": "linguistics",
+					"abr": "ling",
+					"min": 0,
+					"max": 5,
+					"value": 1,
+					"caste": "eclipse",
+					"favored": false
+			},
+			{
+					"name": "ride",
+					"abr": "ride",
+					"min": 0,
+					"max": 5,
+					"value": 0,
+					"caste": "eclipse",
+					"favored": false
+			},
+			{
+					"name": "sail",
+					"abr": "sail",
+					"min": 0,
+					"max": 5,
+					"value": 0,
+					"caste": "eclipse",
+					"favored": false
+			},
+		 {
+					"name": "socialize",
+					"abr": "socl",
+					"min": 0,
+					"max": 5,
+					"value": 1,
+					"caste": "eclipse",
+					"favored": false
+			},
+			{
+					"name": "craft",
+					"abr": "craf",
+					"min": 0,
+					"max": 5,
+					"value": 0,
+					"caste": "twilight",
+					"favored": false
+			},
+			{
+					"name": "investigation",
+					"abr": "inv",
+					"min": 0,
+					"max": 5,
+					"value": 3,
+					"caste": "twilight",
+					"favored": true,
+					 "excellencies": [
+						{
+							"name": "2nd Investigation Excellency",
+							"title": "Essence Triumphant",
+							"abr": "2",
+							"description": "Add 1 success to the die pool",
+							"cost": 2,
+							"costRepeats": true
+						}
+					]
+			},
+			{
+					"name": "lore",
+					"abr": "lore",
+					"min": 0,
+					"max": 5,
+					"value": 2,
+					"caste": "twilight",
+					"favored": true
+			},
+		{
+					"name": "medicine",
+					"abr": "medi",
+					"min": 0,
+					"max": 5,
+					"value": 0,
+					"caste": "twilight",
+					"favored": false
+			},
+			{
+					"name": "occult",
+					"abr": "occ",
+					"min": 0,
+					"max": 5,
+					"value": 0,
+					"caste": "twilight",
+					"favored": false
+			}
+	],
+		"backgrounds": {
+				"max": 5,
+				"bucket": [{
+						"name": "artifact",
+						"abr": "arti",
+						"value": 5,
+						"details": [{
+								"name": "Radiant Arbiter Behind the Mindful Veil",
+								"value": 3
+						},
+												{
+								"name": "Glimmering Shoehorn of the Immaculate Footwear",
+								"value": 1
+						},
+												{
+								"name": "Collar of the Dawn's Cleansing Light",
+								"value": 1
+						}
+						]
+				}, {
+						"name": "resources",
+						"abr": "reso",
+						"max": 5,
+						"value": 3
+				}, {
+						"name": "followers",
+						"abr": "fllw",
+						"max": 5,
+						"value": 1
+				}]
+		},
+		"languages": ["Low Realm", "Guildtongue"],
+		"charms": [{
+				"domain": "Solar",
+                "location": {"book": "Exalted", "page":261},
+				"name": "Monkey Leap Technique",
+				"type": "Reflexive",
+				"keywords": ["combo-ok"],
+				"duration": "instant",
+				"ability": "Athletics",
+				"minimums": [{
+						"name": "Athletics",
+						"value": 4
+				}, {
+						"name": "Essence",
+						"value": 1
+				}],
+				"cost": [{
+						"essence": 2
+				}],
+				"description": "Leap 1 Range Band",
+				"tooltip": "Leap 1 Range Band"
+
+		}, {
+				"domain": "Solar",
+                "location": {"book": "Exalted", "page":261},
+				"name": "Soaring Crane Leap",
+				"type": "Reflexive",
+				"keywords": ["combo-ok", "obvious"],
+				"duration": "instant",
+				"ability": "Athletics",
+				"minimums": [{
+						"name": "Athletics",
+						"value": 5
+				}, {
+						"name": "Essence",
+						"value": 3
+				}],
+				"prerequisites": [{
+						"name": "Monkey Leap Technique"
+				}],
+				"cost": [{
+						"essence": 3
+				}],
+				"description": "Fall or Float 3 Range Bands",
+				"tooltip": "Fall or Float 3 Range Bands"
+		}, {
+				"domain": "Solar",
+                "location": {"book": "Exalted", "page":261},
+				"name": "Foe-Vaulting Method",
+				"type": "Reflexive",
+				"keywords": [],
+				"duration": "instant",
+				"ability": "Athletics",
+				"minimums": [{
+						"name": "Athletics",
+						"value": 4
+				}, {
+						"name": "Essence",
+						"value": 2
+				}],
+				"prerequisites": [{
+						"name": "?"
+				}],
+				"cost": [{
+						"initiative": 3
+				}],
+				"description": "insert bullshit here",
+				"tooltip": "Dex+Athl v Evasion => Sneak Attack"
+		}, {
+				"domain": "Solar",
+                "location": {"book": "Exalted", "page":375},
+				"name": "Body-Mending Meditation",
+				"type": "Supplemental",
+				"keywords": ["combo-ok"],
+				"duration": "instant",
+				"ability": "Resistance",
+				"minimums": [{
+						"name": "Resistance",
+						"value": 1
+				}, {
+						"name": "Essence",
+						"value": 1
+				}],
+				"prerequisites": [{
+						"name": "none"
+				}],
+				"cost": [{
+						"essence": 10
+				}],
+				"description": "insert bullshit here",
+				"tooltip": "Sta + Res : Heal Facor Ess x Successes."
+		}, {
+				"domain": "Solar",
+                "location": {"book": "Exalted", "page":262},
+				"name": "Lightning Speed",
+				"type": "Supplemental",
+				"keywords": ["combo-ok"],
+				"duration": "instant",
+				"ability": "Athletics",
+				"minimums": [{
+						"name": "Athletics",
+						"value": 2
+				}, {
+						"name": "Essence",
+						"value": 1
+				}],
+				"prerequisites": [{
+						"name": " "
+				}],
+				"cost": [{
+						"essence": 3
+				}],
+				"description": "insert bullshit here",
+				"tooltip": "Rush +1 success, reroll 5&6."
+		}, {
+				"domain": "Solar",
+                "location": {"book": "Exalted", "page":262},
+				"name": "Increasing Strength Exercise",
+				"type": "Supplemental",
+				"keywords": ["combo-ok"],
+				"duration": "Scene",
+				"ability": "Athletics",
+				"minimums": [{
+						"name": "Athletics",
+						"value": 3
+				}, {
+						"name": "Essence",
+						"value": 1
+				}],
+				"prerequisites": [{
+						"name": "none"
+				}],
+				"cost": [{
+						"essence": 3
+			 }],
+				"description": "insert bullshit here",
+				"tooltip": "+1 STR & Base Damage"
+		}, {
+				"domain": "Solar",
+				"name": "Seven Shadow Evasion",
+				"type": "Reflexive (Step 2)",
+				"keywords": ["combo-ok", "obvious"],
+				"duration": "instant",
+				"ability": "Dodge",
+				"minimums": [{
+						"name": "Dodge",
+						"value": 4
+				}, {
+						"name": "Essence",
+						"value": 2
+				}],
+				"prerequisites": [{
+						"name": "Shadow Over Water"
+				}],
+				"cost": [{
+						"essence": 3
+				}],
+				"description": "insert bullshit here",
+				"tooltip": "Dodge any expected attack."
+		}, {
+				"domain": "Solar",
+				"name": "Reflexive Sidestep Technique",
+				"type": "Reflexive (Step 2)",
+				"keywords": ["combo-ok"],
+				"duration": "instant",
+				"ability": "Dodge",
+				"minimums": [{
+						"name": "Dodge",
+						"value": 3
+				}, {
+						"name": "Essence",
+						"value": 1
+				}],
+				"prerequisites": [{
+						"name": "none"
+				}],
+				"cost": [{
+						"essence": 1
+				}],
+				"description": "insert bullshit here",
+				"tooltip": "Any unexpected attack becomes expected."
+		}, {
+				"domain": "Solar",
+				"name": "Easily Overlooked Presence Method",
+				"type": "Simple",
+				"keywords": ["combo-ok"],
+				"duration": "scene",
+				"ability": "Stealth",
+				"minimums": [{
+						"name": "Stealth",
+						"value": 3
+				}, {
+						"name": "Essence",
+						"value": 1
+				}],
+				"prerequisites": [{
+						"name": "none"
+				}],
+				"cost": [{
+						"essence": 3
+				}],
+				"description": "insert bullshit here",
+				"tooltip": "Opposed Awareness and Investigation checks automatically fail."
+		}, {
+				"domain": "Solar",
+				"name": "Invisible Statue Spirit",
+				"type": "Simple",
+				"keywords": ["combo-ok"],
+				"duration": "indefinite",
+				"ability": "Stealth",
+				"minimums": [{
+						"name": "Stealth",
+						"value": 3
+				}, {
+						"name": "Essence",
+						"value": 2
+				}],
+				"prerequisites": [{
+						"name": "Easily Overlooked Presence Method"
+				}],
+				"cost": [{
+						"essence": 5
+				}],
+				"description": "insert bullshit here",
+				"tooltip": "Become impossible to detect with the senses, save touch."
+		}
+    ]
+	,"Intimacies": [
+        {"name": "Freedom!", "intensity":"defining", "description":"We are only great when we are free"}
+        ,{"name": "Fuck the 1000 scales", "intensity":"Major", "description":"They are the enslavement arm of the Empire, and must be stopped"}
+        ,{"name": "The Sea", "intensity":"Major", "description":"The sea has been his safety and his boon, and he longs for it"}
+        ,{"name": "Outside!", "intensity":"Minor", "description":"The open sky is what he loves, not indoors"}
+        ,{"name": "Not Underground", "intensity":"Minor", "description":"The confinement of underground is uncomfortable"}
+        ,{"name": "Won't Take without Asking", "intensity":"Major", "description":"Gifts are what is given, nothing not given is needed"}
+        ,{"name": "The Dawn Treader", "intensity":"Major", "description":"His personal sigil of freedom, the only thing from his last life worth anything"}
+		]
+	, "essence": {
+			"value": 1,
+			"pools": [
+				{"name":"personal", "value": 13, "currentvalue": 0}
+				,{"name":"peripheral", "value": 33, "currentvalue": 33, "committed":[
+                    {"name":"Dawn Treader", "value": 5}
+                    ,{"name":"Glorious Sling", "value": 4}
+                ]}
+			]
+	}
+	, "willpower": {
+		"value": 6,
+		"currentvalue": 3
+	}
+    , "limit": {
+		"value": 10,
+  		"currentvalue": 0,
+        "flaw": {
+			"name": "Limit Break",
+			"title": "Lacissitude of Overwhelm",
+			"trigger": "Experiencing an impingement of freedom, or witnessing it",
+			"description": "The character is overwhelmed by the intensity of loss, and descends into lacissitude from overwhelm. He is incapable of taking any actions of his own volition, except to protect himself or nearby loved-ones.",
+			"partial_control": "The character can take actions, but only under great duress or urging. He might even willingly allow others to urge him to action, even random passersby. In combat, he can fight, but only at -2 to offensive actions.",
+		}
+    }
+	, "health" : {
+		"levels": [0, -1, -1, -1, -1, -2, -2, -2, -4, -10],
+		"damage": [3, 2,  2,  2,  1,  1]
+	}
+	, "experience" : {
+			"value": 0, "currentvalue": 0,
+			"spent": []}
+	, "solarexperience" : {
+			"value": 0, "currentvalue": 0,
+			"spent": []}
+	, "traits" : [
+			{"height": "6'"},
+			{"weight": "175"},
+			{"hair" : { "color":"blonde", "length":"long", "cut":"wild"} }
+		]
+    , "combat" : {
+        
+    }
+}
