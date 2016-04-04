@@ -917,7 +917,7 @@
 			"title": "Lacissitude of Overwhelm",
 			"trigger": "Experiencing an impingement of freedom, or witnessing it",
 			"description": "The character is overwhelmed by the intensity of loss, and descends into lacissitude from overwhelm. He is incapable of taking any actions of his own volition, except to protect himself or nearby loved-ones.",
-			"partial_control": "The character can take actions, but only under great duress or urging. He might even willingly allow others to urge him to action, even random passersby. In combat, he can fight, but only at -2 to offensive actions.",
+			"partial_control": "The character can take actions, but only under great duress or urging. He might even willingly allow others to urge him to action, even random passersby. In combat, he can fight, but only at -2 to offensive actions."
 		}
     }
 	, "health" : {
