@@ -1,0 +1,11 @@
+{
+    "mycharacters":[
+        {"name": "Goods of the Sun", "type": "solar", "caste":"dawn", "data": "goods.json"},
+        {"name": "Gunnel", "type": "solar", "caste":"eclipse", "data": "gunnel.json"}
+    ],
+    "publiccharacters": [
+        {"name": "Ebon Carom", "type": "terrestrial", "caste":"earth", "data": "onyx.json"},
+        {"name": "Goods of the Sun", "type": "solar", "caste":"dawn", "data": "goods.json"}
+        
+    ]
+}
