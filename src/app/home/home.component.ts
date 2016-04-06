@@ -1,6 +1,7 @@
 import {Component} from 'angular2/core';
 import {AppState} from '../app.service';
 
+import {CharacterService} from '../characters.service.ts'
 import {Title} from './title';
 import {XLarge} from './x-large';
 
@@ -12,6 +13,7 @@ import {XLarge} from './x-large';
   // We need to tell Angular's Dependency Injection which providers are in our app.
   providers: [
     Title
+    , CharacterService
   ],
   // We need to tell Angular's compiler which directives are in our template.
   // Doing so will allow Angular to attach our behavior to an element
@@ -28,9 +30,16 @@ import {XLarge} from './x-large';
 export class Home {
   // Set our default values
   localState = { value: '' };
+  myCharacters = [];
+  publicCharacters = [];
+  
   // TypeScript public modifiers
-  constructor(public appState: AppState, public title: Title) {
-
+  constructor(public appState: AppState, public title: Title, private _characterService: CharacterService) {
+      this.myCharacters = _characterService.getMyCharacters();
+      this.publicCharacters = _characterService.getPublicCharacters();
+      
+      console.log(this.myCharacters);
+      console.log(this.publicCharacters);
   }
 
   ngOnInit() {

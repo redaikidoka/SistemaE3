@@ -58,10 +58,7 @@ import {RouterActive} from './router-active';
     </main>
 
     <footer>
-      WebPack Angular 2 Starter by <a [href]="url">@AngularClass</a>
-      <div>
-        <img [src]="angularclassLogo" width="10%">
-      </div>
+      
     </footer>
 
     <pre>this.appState.state = {{ appState.state | json }}</pre>
